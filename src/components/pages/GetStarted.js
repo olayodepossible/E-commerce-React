@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Button from "../Button";
+import "./GetStarted.css";
 
 const GetStarted = ({
   lightBg,
@@ -24,7 +25,6 @@ const GetStarted = ({
           <div
             className="row home__hero-row"
             style={{
-              display: "flex",
               flexDirection: imgStart === "start" ? "row-reverse" : "row",
             }}
           >
@@ -53,7 +53,7 @@ const GetStarted = ({
 
             <div className="col">
               <div className="home__hero-img-wrapper">
-                <img src="{img}" alt="{alt}" className="home__hero-img" />
+                <img src={img} alt={alt} className="home__hero-img" />
               </div>
             </div>
           </div>
