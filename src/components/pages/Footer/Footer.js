@@ -94,7 +94,7 @@ const Footer = () => {
             >
               <FaInstagram />
             </Link>
-            {/*<Link
+            {/* <Link
               className="social-icon-link"
               to={
                 "//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber"
@@ -103,7 +103,7 @@ const Footer = () => {
               aria-label="Youtube"
             >
               <FaYoutube />
-            </Link>*/}
+            </Link> */}
             <Link
               className="social-icon-link"
               to="/"
@@ -114,7 +114,7 @@ const Footer = () => {
             </Link>
             <Link
               className="social-icon-link"
-              to={"https://www.linkedin.com/in/olayodeakinfemiwa-027979186/"}
+              to={"//www.linkedin.com/in/olayode-akinfemiwa-027979186/"}
               target="_blank"
               aria-label="LinkedIn"
             >
